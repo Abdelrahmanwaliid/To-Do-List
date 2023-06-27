@@ -9,7 +9,11 @@ body {
   width: 75%;
   margin: 20px auto;
 }
-
+@media (max-width: 767px) {
+  .container {
+    width: 95%;
+  }
+}
 h2 {
   text-align: center;
   color: #444444;
@@ -25,6 +29,7 @@ h2 {
 }
 
 .input {
+  width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 6px;
